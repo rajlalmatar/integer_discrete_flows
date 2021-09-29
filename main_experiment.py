@@ -52,7 +52,7 @@ parser.add_argument('-e', '--epochs', type=int, default=2000, metavar='EPOCHS',
 parser.add_argument('-es', '--early_stopping_epochs', type=int, default=300, metavar='EARLY_STOPPING',
                     help='number of early stopping epochs')
 
-parser.add_argument('-bs', '--batch_size', type=int, default=128, metavar='BATCH_SIZE',
+parser.add_argument('-bs', '--batch_size', type=int, default=96, metavar='BATCH_SIZE',
                     help='input batch size for training (default: 100)')
 parser.add_argument('-lr', '--learning_rate', type=float, default=0.001, metavar='LEARNING_RATE',
                     help='learning rate')
